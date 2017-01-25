@@ -1,0 +1,47 @@
+/**
+Theme Name: Radius Machining
+Author: Webdot
+Author URI: http://webdot.me
+Version: 1.0
+*/
+
+@import url('css/reset.css');
+@import url('css/style.css');
+
+.top-header-title {
+	text-indent: 0 !important;
+	white-space: nowrap !important;
+}
+
+.top-header-title a {
+	line-height: 37px !important;
+	padding-left: 60px !important;
+}
+
+@media all and (max-width: 600px) {
+	
+	body {
+		overflow: auto !important;
+	}
+
+	.top-header {
+		z-index: 9999999999999999999;
+	}
+
+	.boxes {
+		z-index: 200;
+	}
+
+	.slider li {
+		display: none;
+	}
+
+	.slider:before {
+		display: none;
+	}
+
+	.opbg {
+		display: none !important;
+	}
+
+}
